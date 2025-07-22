@@ -10,12 +10,11 @@ This project is a real-time interactive Streamlit app that displays bike availab
 - Data exploration notebook (`temp.ipynb`) included for reproducibility
 
 ## Project structure
-├── app.py # Main Streamlit app
-├── helper.py # Utility functions
-├── temp.ipynb # Exploratory data analysis notebook
-├── environment.yml # Conda environment setup
-├── requirements.txt # Pip requirements (optional alternative to Conda)
-├── .gitignore # Ignore unnecessary files
+- app.py # Main Streamlit app
+- helper.py # Utility functions
+- temp.ipynb # Exploratory data analysis notebook
+- requirements.txt # Pip requirements (optional alternative to Conda)
+- .gitignore # Ignore unnecessary files
 
 
 ## How to run locally
@@ -24,8 +23,6 @@ This project is a real-time interactive Streamlit app that displays bike availab
    ```bash
    git clone https://github.com/Feliciaangel21/bike-streamlit.git
 2. Set up the environment:
-   conda env create -f environment.yml
-   conda activate bike-streamlit
 3. Run the Streamlit app:
    streamlit run app.py
 
